@@ -1,7 +1,7 @@
 //require("dotenv").config({path:"./env"});  -> but it disturbs the consistency of the code
 import {} from "dotenv/config"; // Automatically loads environment variables from .env file
 import dotenv from "dotenv";
-
+import {app} from "./app.js";
 dotenv.config({
     path:"./env"
 })
